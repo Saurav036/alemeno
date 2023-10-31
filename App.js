@@ -3,15 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { NavigationContainer , useRoute} from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import {
-  Text,
-  View,
-  TextInput,
-  TouchableOpacity,
-  SafeAreaProvider,
-} from "react-native";
-// import { SafeAreaProvider } from 'react-native-safe-area-context'
-import { styles } from "./components/base/Styles";
+
 import Login from "./screens/Login";
 import CourseList from "./screens/CourseList"
 import CourseDetail from "./screens/CourseDetail";
